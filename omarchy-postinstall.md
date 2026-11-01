@@ -100,7 +100,7 @@ If `yay` cannot reach the AUR, stop. Do not switch package names. `omarchy pkg a
 Verify every name is installed:
 
 ```bash
-pacman -Q geoclue sysfsutils stow solaar deja-dup rsync rclone yazi \
+pacman -Q sysfsutils stow solaar deja-dup rsync rclone yazi \
   google-chrome \
   visual-studio-code-bin insync
 ```
