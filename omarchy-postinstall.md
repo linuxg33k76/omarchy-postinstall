@@ -77,7 +77,6 @@ Official repositories:
 
 ```bash
 sudo pacman -S --needed --noconfirm \
-  geoclue \
   sysfsutils \
   stow \
   solaar \
@@ -91,10 +90,7 @@ AUR:
 
 ```bash
 yay -S --needed --noconfirm \
-  tether-bin \
   google-chrome \
-  microsoft-edge-dev-bin \
-  proton-pass-bin \
   visual-studio-code-bin \
   insync
 ```
@@ -105,7 +101,7 @@ Verify every name is installed:
 
 ```bash
 pacman -Q geoclue sysfsutils stow solaar deja-dup rsync rclone yazi \
-  tether-bin google-chrome microsoft-edge-dev-bin proton-pass-bin \
+  google-chrome \
   visual-studio-code-bin insync
 ```
 
@@ -151,13 +147,11 @@ Add each repo with `--enable --yes`. If a plugin is already installed, skip that
 
 ```bash
 omarchy plugin add https://github.com/HoneySpoons/omarchy-localsend.git --enable --yes
-omarchy plugin add https://github.com/rmacy/omarchy-system-monitor.git --enable --yes
 omarchy plugin add https://github.com/r-witz/omarchy-nothing-ear.git --enable --yes
 omarchy plugin add https://github.com/ronald2wing/Omarchy-Bible --enable --yes
 omarchy plugin add https://github.com/linuxg33k76/omanetmonitor.git --enable --yes
 omarchy plugin add https://github.com/linuxg33k76/hey-im-gaming-here.git --enable --yes
 omarchy plugin add https://github.com/fross100/omaplug.git --enable --yes
-omarchy plugin add https://github.com/ejuro/blow-off-some-steam.git --enable --yes
 ```
 
 Then check that they are present and enabled:
